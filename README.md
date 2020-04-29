@@ -19,4 +19,7 @@ Laravel Cashier (Braintree)
 MySQL
 Geolocation (TomTom Developer )
 
-https://user-images.githubusercontent.com/55139220/75685805-7c1a3500-5c9b-11ea-9d7b-e9289bf9ccc3.gif
+Preview: https://user-images.githubusercontent.com/55139220/75685805-7c1a3500-5c9b-11ea-9d7b-e9289bf9ccc3.gif
+
+
+Doc condiviso del progetto: https://docs.google.com/document/d/1_ZuoXejegH7Gy-gR6EmVpgveQou4TiZnw9lkDhG1V9o/edit
