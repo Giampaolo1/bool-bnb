@@ -1,3 +1,36 @@
+Importante:
+Il sito funziona solo tramite un Server e un Database:
+
+Installazione
+
+$ composer install
+$ npm install
+$ cp .env.example .env
+
+Crea un nuovo database ed inserisci i seguenti dati nel file env come da guida
+
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=your_database_name
+DB_USERNAME=your_user
+DB_PASSWORD=your_password
+
+Genera la tua chiave
+
+$ php artisan key:generate
+Popola il tuo database con faker
+
+$ php artisan migrate:refresh --seed
+
+Lancia il tuo server
+
+$ php artisan serve
+
+...In un altro terminale lancia
+
+$ npm run watch
+
 Caratteristiche
 
 BoolBnB è una applicazione per trovare e gestire l’affitto di appartamenti. Attraverso BoolBnB i proprietari di appartamento possono inserire le informazioni degli appartamenti che vogliono affittare per cercare utenti interessati. Gli utenti che vogliono mettere in affitto un appartamento devono registrarsi alla piattaforma; una volta registrati hanno la possibilità di inserire uno o più appartamenti. Gli utenti interessati ad un appartamento, utilizzando i filtri di una apposita pagina di ricerca, vedono una lista di possibili appartamenti e cliccando su ognuno possono vedere una pagina di dettaglio. Una volta trovata l’appartamento desiderato, l’utente interessato può contattare l’utente proprietario per fare domande.
